@@ -111,6 +111,10 @@ footer {
   color: rgba(39, 39, 39, 0.38);
 }
 
+.title span {
+  display: block;
+}
+
 @keyframes introA {
   from {
     opacity: 0;
@@ -185,5 +189,14 @@ footer {
     font-size: 9px;
     letter-spacing: 0.11em;
     line-height: 1.7;
+  }
+
+  .title {
+    letter-spacing: 0.06em;
+    margin-left: 0;
+  }
+
+  .title span:first-child {
+    margin-bottom: 4px;
   }
 }
